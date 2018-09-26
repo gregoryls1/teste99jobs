@@ -1,0 +1,163 @@
+.sidebar-progress {
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.sidebar-progress-bar p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.progress-bar {
+    width: 70%;
+    height: 5px;
+}
+
+.container-sidebar {
+    background-color: white;
+    margin-left: -12px;
+    height: 100%;
+}
+
+.sidebar-avatar {
+    display: flex;
+    justify-content: center;
+  }
+  .sidebar-avatar img {
+    border-radius: 100%;
+  }
+  
+  .sidebar-name {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sidebar-name h4 {
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .sidebar-career {
+    font-weight: bold;
+    color:  #d7dbdc;
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  
+  .sidebar-description {
+    display: flex;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 450;
+  }
+  
+  .sidebar-link h4{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    color:  #d7dbdc;
+    margin-left: 10px;
+  }
+
+  .input-group-text {
+    margin-left: 10px;
+  }
+
+  .sidebar-match h4 {
+    color:  #d7dbdc;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    text-transform: uppercase;
+  }
+  
+  .sidebar-match img{
+    width: 50px;
+    border-radius: 100%;
+    margin: 5px;
+  }
+  
+  .sidebar-match-picture{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+  }
+
+  .sidebar-match-picture p {
+      margin-top: 24px;
+      font-size: 14px;
+  }
+  
+  .sidebar-match-link {
+    display: flex;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .sidebar-icons {
+    margin-left: 20px;
+  }
+  
+  .sidebar-contact h4 {
+    color:  #d7dbdc;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  
+  .sidebar-contact .location {
+    text-transform: capitalize;
+  }
+  
+  .sidebar-icons i{
+    margin-left: -10px;
+    margin-right: 5px;
+    top: 13px;
+    font-size: 15px;
+    color:  #d7dbdc;
+  }
+
+  .sidebar-icons p {
+      font-size: 12px;
+  }
+  
+  .sidebar-icons p {
+    padding-top: -10px;
+  }
+
+  .sidebar-social h4 {
+    font-size: 18px;
+    font-weight: bold;
+    color:  #d7dbdc;
+    margin-left: 24px;
+  }
+  
+  .sidebar-social-list {
+    width: 100%;
+    margin-top: 10px;    
+  }
+  
+  .sidebar-social-list ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 16px;
+  }
+
+  .sidebar-social-list a {
+    margin: 0;
+    padding: 4px;
+    font-size: 15px;
+  }
+
+  .sidebar-social-list span {
+      margin-left: 3px;
+      text-transform: capitalize;
+      font-size: 14px;
+      font-weight: 400;
+  }

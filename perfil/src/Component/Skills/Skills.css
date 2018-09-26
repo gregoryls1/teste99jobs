@@ -1,0 +1,13 @@
+.skills p {
+    font-size: 14px;
+    color: gray;
+}
+
+.skills span {
+    font-weight: 500;
+}
+
+.skills i {
+    margin-right: 5px;
+    font-size: 17px;
+}

@@ -1,0 +1,120 @@
+.profile {
+    width: 96%;
+    margin-left: 2%;
+}
+.nav-bar {
+    background-color: white!important;
+    height: 60px;
+}
+
+.logo {
+    width: 180px;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+
+.container-logo {
+    width: 25%;
+}
+
+.container-search-box {
+    width: 45%;
+    border-left: 1px solid #d7dbdc;
+    /* display: none; */
+}
+
+.form-inline {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-inline input {
+    margin: 0;
+    padding: 0;
+}
+
+.form-inline button {
+    margin: 0;
+    box-shadow: 0;
+}
+
+.form-inline .form-control {
+    height: 60px;
+    background: #FFF;
+    border-radius: 0;
+    border: 0;
+}
+
+.icon-search-desk {
+    background: transparent url(./../../assets/zoom.svg) 0 0 no-repeat;
+    width: 25px;
+    height: 25px;
+    margin: auto;
+}
+
+.searchbox-submit {
+    height: 60px;
+    font-size: 22px;
+    border-radius: 0;
+    line-height: 60px;
+    cursor: pointer;
+    background: white;
+    position: absolute;
+    box-shadow: 0 0px 0px 0 rgba(255, 255, 255, 255), 0 0px 0px 0 rgba(255, 255, 255, 255)!important;
+    -webkit-box-shadow: 0 0px 0px 0 rgba(255, 255, 255, 255), 0 0px 0px 0 rgba(255, 255, 255, 255)!important;
+}
+
+.menu {
+    width: 20%;
+    height: 60px;
+    border-left: 1px solid #d7dbdc;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    z-index: 1;
+}
+
+.menu a {
+    font-size: 14px;
+    font-weight: bold;
+    color:gray;
+}
+
+.nav-profile {
+    border-left: 1px solid #d7dbdc;
+    display: flex;
+    align-items: center;
+    width: 14%;
+
+}
+
+.nav-profile p {
+    font-size: 12px;
+    margin-top: 21px;
+}
+
+.bell{
+    font-size: 20px;
+    color: #cbcccc;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width : 991px) {
+    .container-search-box,
+    .nav-profile {
+        display: none;
+    }
+
+    .menu {
+        height: 200px;
+        margin-top: -10px;
+    }
+ }

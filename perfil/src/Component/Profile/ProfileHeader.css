@@ -1,0 +1,170 @@
+.profile{
+  background-color: white;
+  padding: 30px;
+}
+
+.profile-avatar {
+  display: flex;
+  justify-content: center;
+}
+.profile-avatar img {
+  border-radius: 100%;
+}
+
+.profile-name {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-name h4 {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.profile-career {
+  font-weight: bold;
+  color:  #d7dbdc;
+  margin-top: -10px;
+  margin-bottom: -10px;
+}
+
+.profile-description {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-link h4{
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+  color:  #d7dbdc;
+}
+
+.profile-match h4 {
+  color:  #d7dbdc;
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.profile-match img{
+  width: 50px;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.profile-match-picture{
+  display: inline-block;
+  margin: 10px;
+}
+
+.profile-match-link {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.profile-icons {
+  margin-left: 20px;
+}
+
+.profile-contact h4 {
+  color:  #d7dbdc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profile-contact .location {
+  text-transform: capitalize;
+}
+
+.profile-icons i{
+  margin-right: 15px;
+  top: 13px;
+  font-size: 30px;
+  color:  #d7dbdc;
+}
+
+.profile-icons p {
+  padding-top: -10px;
+}
+
+.social h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color:  #d7dbdc;
+}
+
+.social-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+
+.social-list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-list ul li {
+  display: inline;
+}
+
+.social-list a {
+  margin: 0;
+  padding: 4px;
+  font-size: 15px;
+}
+
+.fa {
+    padding: 7px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px;
+    border-radius: 100%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-behance {
+  background: #000000;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-safari {
+  background: #0073d2;
+  color: white;
+}
+
+
+

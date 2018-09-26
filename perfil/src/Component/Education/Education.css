@@ -1,0 +1,31 @@
+.form-educacao {
+    background-color: white;
+}
+
+.form-educacao label {
+    font-weight: 400;
+}
+
+.form-educacao h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d7dbdc;
+}
+
+.container-form-educacao {
+    background-color: #d7dbdc;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.container-form-educacao label {
+    font-size: 10px;
+}
+
+.full-name input::-webkit-input-placeholder {
+    text-transform: capitalize;
+}
+
+.full-name input::-moz-placeholder {
+    text-transform: capitalize;
+}

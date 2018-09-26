@@ -1,0 +1,21 @@
+.form-edit-profile {
+    background-color: white;
+}
+
+.form-edit-profile h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d7dbdc;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    right: -20px;
+}
+
+.form-edit-profile label{
+    font-size: 15px;
+    color: gray;
+    font-weight: 450;
+}

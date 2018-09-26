@@ -1,0 +1,23 @@
+.second-column h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #d7dbdc;
+}
+.container-input-social {
+    display: flex;
+    align-items: center;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: white;
+    background-clip: padding-box;
+    position: absolute;
+}
