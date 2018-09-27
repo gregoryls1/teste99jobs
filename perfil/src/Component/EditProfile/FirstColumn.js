@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom'
 import { showProfile } from "./../../Services/Api"
 
 
 import './FirstColumn.css'
 
-class FirstColumn extends Component {
+class FirstColumn extends React.Component {
 
     constructor(props) {
         super(props)

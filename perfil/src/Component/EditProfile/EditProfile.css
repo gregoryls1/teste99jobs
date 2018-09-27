@@ -8,6 +8,71 @@
     color: #d7dbdc;
 }
 
+
+.upload-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #d7dbdc;
+    display: flex;
+    align-items: center;
+}
+
+.container-upload {
+    display: flex;
+    align-items: center;
+}
+
+.upload-foto input {
+    margin-left: -13px;
+    opacity: 0.0;
+    cursor: pointer;
+}
+
+.upload-foto i {
+    font-size: 50px;
+    margin-left: 9px;
+}
+
+.container-upload p {
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: 5px;
+}
+
+.container-lock {
+    display: flex;
+    align-items: center;
+}
+
+.icon-lock {
+    width: 30px;
+    height: 30px;
+    background-color: #d7dbdc;
+    color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.icon-lock-cpf {
+    width: 30px;
+    height: 30px;
+    background-color: #d7dbdc;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+
+}
+
+.container-radio {
+    display: flex;
+    justify-content: space-between;
+}
+
 .buttons {
     display: flex;
     justify-content: flex-end;
@@ -18,4 +83,37 @@
     font-size: 15px;
     color: gray;
     font-weight: 450;
+}
+.second-column h3 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #d7dbdc;
+}
+.container-input-social {
+    display: flex;
+    align-items: center;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: white;
+    background-clip: padding-box;
+    position: absolute;
+}
+.span {
+    font-size: 10px;
+    color: red;
+    display: none;
+}
+
+.error {
+    font-size: 10px;
+    color: red;
 }
