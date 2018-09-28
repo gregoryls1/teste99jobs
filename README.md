@@ -1,6 +1,7 @@
 # teste99jobs
 
-## Teste realizado no periodo do dia 24 ao 27/09/2018
+## Teste realizado no periodo do dia 20 ao 27/09/2018
+- Dos dias 21 ao dia 23 não foi possível avançar com o teste, por motivos de viagem e falta de acesso a internet.
 
 #### Layout enviado via email
 
